@@ -5,3 +5,5 @@ const ensureLoggedIn = require('../../config/ensureLoggedIn');
 
 router.post('/', ensureLoggedIn, notesController.create)
 router.get('/', ensureLoggedIn, notesController.index)
+
+module.exports = router;

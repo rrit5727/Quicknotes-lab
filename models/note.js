@@ -5,7 +5,7 @@ const Schema = mongoose.Schema;
 const noteSchema = new Schema({
 
     text: {
-        type: string,
+        type: String,
         required: true
     },
     user: {
